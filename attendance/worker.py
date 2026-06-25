@@ -10,7 +10,8 @@ sms_service = SMSService("http://192.168.8.1")
 def headers():
     return {
         "x-api-key": API_KEY,
-        "Content-Type": "application/json"
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/120 Safari/537.36"
     }
 
 
